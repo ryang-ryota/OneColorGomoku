@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 碁盤の線（縦3本） -->
+    <path
+        android:strokeColor="#A0522D"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="
+            M33,18 v72
+            M54,18 v72
+            M75,18 v72" />
+
+    <!-- 碁盤の線（横3本） -->
+    <path
+        android:strokeColor="#A0522D"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="
+            M18,33 h72
+            M18,54 h72
+            M18,75 h72" />
+
+    <!-- 白石（左上） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:pathData="M33,33 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+    <!-- 白石（中央） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:pathData="M54,54 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+    <!-- 白石（右下） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:pathData="M75,75 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+</vector>
